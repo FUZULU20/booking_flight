@@ -1,10 +1,12 @@
 import React from 'react';
 import './FlightSearchForm.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 function FlightSearchForm(props) {
   return (
     <form onSubmit={props.onSubmit}>
+      <Navbar />
       <label htmlFor="departure">Departure Airport:</label>
       <input type="text" id="departure" name="departure" />
       <br />

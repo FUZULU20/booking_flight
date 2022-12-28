@@ -1,5 +1,6 @@
 import React from 'react';
-import "./BookingForm.css"
+import "./BookingForm.css";
+import {Link} from "react-router-dom"
 
 function BookingForm(props) {
   return (
@@ -12,6 +13,7 @@ function BookingForm(props) {
       <br />
       <label htmlFor="cardNumber">Card Number:</label>
       <input type="number" id='cardNumber' name='cardNumber' />
+      <Link to="/info"><button type='submit'>Submit</button></Link>
       </form>
       )
   }

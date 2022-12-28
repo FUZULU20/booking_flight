@@ -1,0 +1,11 @@
+.nb-Container {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+}
+
+.nb-Wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
